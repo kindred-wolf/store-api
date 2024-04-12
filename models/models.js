@@ -1,4 +1,3 @@
-const { Unique } = require('typeorm')
 const sequelize = require('../db')
 const {DataTypes} = require('sequelize')
 
