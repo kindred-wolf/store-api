@@ -1,0 +1,36 @@
+{
+  "name": "shop-api",
+  "version": "1.0.0",
+  "description": "Online-store API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kindred-wolf/store-api.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "pg",
+    "jwt"
+  ],
+  "author": "Vadym Chekhlatyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kindred-wolf/store-api/issues"
+  },
+  "homepage": "https://github.com/kindred-wolf/store-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
